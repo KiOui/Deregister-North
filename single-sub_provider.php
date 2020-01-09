@@ -5,7 +5,8 @@
  * @package deregister-north
  */
 
-header("location: " . get_site_url());
+include_once("/wp-content/themes/deregister-north/404.php");
+//header("location: " . get_site_url());
 
 /*
 get_header(); ?>
