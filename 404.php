@@ -21,7 +21,7 @@ get_header(); ?>
 
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below?', 'siteorigin-north' ); ?></p>
-					<a href=<?php get_site_url();?>><?php esc_html_e('Home', 'siteorigin-north'); ?></a>
+					<a href="<?php get_site_url();?>"><?php esc_html_e('Home', 'siteorigin-north'); ?></a>
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
