@@ -5,7 +5,7 @@
  * @package deregister-north
  */
 
-include_once("/wp-content/themes/deregister-north/404.php");
+include("/wp-content/themes/deregister-north/404.php");
 //header("location: " . get_site_url());
 
 /*
